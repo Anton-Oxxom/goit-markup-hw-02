@@ -1,9 +1,16 @@
-.page-header {
-    color: FFFFFF;
+/*колір основного текста #212121*/
+/*колір текста вторинний #757575*/
+/*колір текста logo web #2196F3*/
+/*колір текста logo studio #000000*/
+/*колір текста hower #2196F3*/
+/*колір текста слоган и footer #FFFFFF*/
+/*колір текста button index #FFFFFF*/
+/*колір текста button portfolio #212121*/
+/*акцент #2196F3*/
+/* колір фона board #2F303A */
+/* колір фона about&work #F5F5F5*/
+/* колір фона team #F5F4FA*/
+
+body {
+    color: tomato;
 }
-.site-nav a {
-    color: 212121;
-
-}
-
-
