@@ -1,6 +1,16 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--primary-white-color:#FFFFFF;
+
+
+}
+
 body{
-    background-color: #2F303A;
-    color: #757575;
+    background-color:var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
     
 }
 
@@ -9,42 +19,152 @@ body{
 }
 
 .logo {
-    color: #000000;
+    color: var(--accent-color);
+    font-family: Raleway;   
+    font-size: 26px;
+    line-height: 1.19;     
 }
+
+.logo-header {
+    color:#000000;
+        font-family: Raleway;
+        font-size: 26px;
+        line-height: 1.19;
+}
+.logo-footer {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
 
 /* Site nav */
 .site-nav .link{
-    color: #212121;
+    color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        
+
+
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
-/* Site contact */
-.site-contact .link {
-    color: #212121;
-       }
 
-.site-contact .link:hover,
-.site-contact .link:focus {
-    color: #2196F3;
+.site-nav .link.current {
+    color: var(--accent-color);
+
+    
 }
+/* Site contact*/
+.site-contact-head .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+       }
+       
+.site-contact-head .link:hover,
+.site-contact-head .link:focus {
+    color: var(--accent-color);
+}
+
+.site-contact-footer .link {
+    color: var(--primary-white-color);
+}
+.site-contact-footer .link:hover,
+.site-contact-footer .link:focus {
+    color: var(--accent-color);
+}
+
+/* board */
+.board-title {
+    color: var(--primary-white-color);
+    font-style: 400;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+   
+}
+
+/* Section */
 
 .section-title {
-    color: #212121;
+    color:var(--title-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+}
+
+/* About */
+.about-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.about-list .text {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Work */
+.work-list .title {
+    color: var(--title-text-color);
+}
+
+/* Team */
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+}
+
+.button-order {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+   
+}
+
+/* Portfolio */
+
+.button-portfolio {
+    background-color: #F5F4FA;
+    color: var(--title-text-color);
+}
+
+.button-portfolio .link:hover,
+.button-portfolio .link:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.portfolio-list .title {
+    color: var(--title-text-color);
 }
 
 
-/*колір основного текста&header #212121*/
-/*колір текста вторинний #757575*/
+/*колір основного текста 757575*/
+/*колір текста заголовків #212121*/
 /*колір текста logo web #2196F3*/
 /*колір текста logo studio #000000*/
-/*колір текста hower #2196F3*/
-/*колір текста слоган и footer #FFFFFF*/
+/*колір текста слоган #FFFFFF*/
 /*колір текста button index #FFFFFF*/
 /*колір текста button portfolio #212121*/
 /*акцент #2196F3*/
 /* колір фона board #2F303A */
-/* колір фона about&work #F5F5F5*/
 /* колір фона team #F5F4FA*/
