@@ -1,3 +1,50 @@
 body{
-    background-color: blue;
+    background-color: #2F303A;
+    color: #757575;
+    
 }
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: #000000;
+}
+
+/* Site nav */
+.site-nav .link{
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+/* Site contact */
+.site-contact .link {
+    color: #212121;
+       }
+
+.site-contact .link:hover,
+.site-contact .link:focus {
+    color: #2196F3;
+}
+
+.section-title {
+    color: #212121;
+}
+
+
+/*колір основного текста&header #212121*/
+/*колір текста вторинний #757575*/
+/*колір текста logo web #2196F3*/
+/*колір текста logo studio #000000*/
+/*колір текста hower #2196F3*/
+/*колір текста слоган и footer #FFFFFF*/
+/*колір текста button index #FFFFFF*/
+/*колір текста button portfolio #212121*/
+/*акцент #2196F3*/
+/* колір фона board #2F303A */
+/* колір фона about&work #F5F5F5*/
+/* колір фона team #F5F4FA*/
