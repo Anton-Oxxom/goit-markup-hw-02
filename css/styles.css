@@ -26,23 +26,23 @@ body{
 }
 
 .logo-header {
-    color:#000000;
+        color:#000000;
         font-family: Raleway;
         font-size: 26px;
         line-height: 1.19;
 }
 .logo-footer {
-    color: #FFFFFF;
-    font-family: Raleway;
-    font-size: 26px;
-    line-height: 1.19;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-size: 26px;
+        line-height: 1.19;
 }
 
 
 /* Site nav */
 .site-nav .link{
-    color: var(--title-text-color);
-    font-weight: 500;
+        color: var(--title-text-color);
+        font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         
@@ -73,13 +73,7 @@ body{
     color: var(--accent-color);
 }
 
-.site-contact-footer .link {
-    color: var(--primary-white-color);
-}
-.site-contact-footer .link:hover,
-.site-contact-footer .link:focus {
-    color: var(--accent-color);
-}
+
 
 /* board */
 .board-title {
@@ -111,7 +105,7 @@ body{
 }
 
 .about-list .text {
-font-weight: 400;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -119,11 +113,23 @@ font-weight: 400;
 /* Work */
 .work-list .title {
     color: var(--title-text-color);
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
 }
 
 /* Team */
 .team-list .title {
     color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+}
+
+.team-list .text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
 }
 
 .button {
@@ -140,11 +146,21 @@ font-weight: 400;
    
 }
 
+.site-contact-footer .link {
+    color: var(--primary-white-color);
+}
+
+.site-contact-footer .link:hover,
+.site-contact-footer .link:focus {
+    color: var(--accent-color);
+}
+
 /* Portfolio */
 
 .button-portfolio {
     background-color: #F5F4FA;
     color: var(--title-text-color);
+
 }
 
 .button-portfolio .link:hover,
